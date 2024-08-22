@@ -1,0 +1,124 @@
+/* Global Styles */
+:root {
+    --primary-color: #4CAF50; /* Green */
+    --secondary-color: #333;  /* Dark gray for text */
+    --light-color: #f4f4f4;   /* Light background */
+    --white-color: #fff;
+    --max-width: 1200px;
+    --padding: 1em;
+    --transition-speed: 0.3s;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+}
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+    line-height: 1.6;
+    padding: var(--padding);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--padding);
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+/* Header Styles */
+.header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: var(--padding) 0;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+.nav {
+    margin-top: 1em;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.nav__item {}
+
+.nav__link {
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+    border-radius: var(--border-radius);
+}
+
+.nav__link:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+/* Main Content Styles */
+.main {
+    padding: 2em;
+    margin-top: 1em;
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.main__section {
+    margin-bottom: 2em;
+}
+
+.main__section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: var(--padding) 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav__list {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .main {
+        padding: 1em;
+    }
+}
