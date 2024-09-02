@@ -5,6 +5,13 @@ body {
     box-sizing: border-box;
 }
 
+.sobrenos {
+    font-family: 'Emulogic';
+} 
+.nossah {
+    font-family: 'Emulogic';
+}
+
 header {
     background-color: #4CAF50;
     color: white;
@@ -46,10 +53,39 @@ footer {
 }
 
 #about h2 {
+    
     color: #4CAF50;
 }
 
 #about ul {
     list-style-type: disc;
     padding-left: 20px;
+}
+
+.texto1 {
+    font-family: 'RO Spritendo';
+}
+
+.texto2 {
+    font-family: 'RO Spritendo';
+}
+
+.texto3 {
+    font-family: 'RO Spritendo';
+}
+
+.texto4 {
+    font-family: 'RO Spritendo';
+}
+
+.texto5 {
+    font-family: 'RO Spritendo';
+}
+
+.texto6 {
+    font-family: 'RO Spritendo';
+}
+
+.texto7 {
+    font-family: 'RO Spritendo';
 }
