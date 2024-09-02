@@ -10,6 +10,7 @@ body {
 
 /* Header Styles */
 header {
+    font-family: 'Emulogic';
     background-color: #4CAF50;
     color: white;
     padding: 1em 0;
@@ -58,6 +59,22 @@ main {
 /* Section Styles */
 section {
     margin-bottom: 2em;
+}
+
+.inf {
+    font-family: 'RO Spritendo';
+}
+
+.outrom {
+    font-family: 'Emulogic';
+}
+
+.texto8 {
+    font-family: 'RO Spritendo';
+}
+
+.contatoc {
+    font-family: 'Emulogic';
 }
 
 #contact form {
