@@ -35,6 +35,7 @@ body {
 
 /* Header Styles */
 .header {
+    font-family: 'emulogic';
     background-color: var(--primary-color);
     color: var(--white-color);
     padding: var(--padding) 0;
@@ -87,6 +88,7 @@ body {
 }
 
 .main__section {
+    font-family: 'RO Spritendo';
     margin-bottom: 2em;
 }
 
@@ -122,3 +124,41 @@ body {
         padding: 1em;
     }
 }
+
+.oqfazemos {
+    display: grid;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.oqfazemos img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.oqfazemos {
+    flex: 1;
+}
+
+
+    .nossosservicos {
+        display: grid;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .nossosservicosimg {
+        max-width: 300px;
+        height: auto;
+        display: center;
+        margin-right: 20px;
+    }
+    
+    .nossosservicos {
+        flex: 1;
+    }
